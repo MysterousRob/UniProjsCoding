@@ -141,4 +141,47 @@ for (int i = 1: i <= 15: i++)
             Console.WriteLine(); 
         }
 
-//Koniec Zadania 8/9
+        //Koniec Zadania 8/9
+
+// Zadania 10
+
+        PrintUpperCase("Hello, World");
+
+        public static void PrintUpperCase(string input)
+        {
+            Console.WriteLine(input.ToUpper());
+        }
+
+        // Koniec Zadana 10
+
+        // Zadanie 11
+
+        {
+            BuildAndPrintMatrix(3, 5);
+        }
+
+        public static void BuildAndPrintMatrix(int x, int y)
+        {
+            for int (int i = 0; i < 3; ++i)
+            {
+                for int (int j = 0; j < y; j++)
+                {
+                    Console.Write("$");
+                }
+                Console.WriteLine();
+            }
+        }
+
+// Koniec Zadanie 11
+
+//Zadanie 12
+
+// Koniec Zadanie 12
+
+//Zadanie 13
+
+// Koniec Zadanie 13
+
+//Zadanie 14
+
+// Koniec Zadanie 14
