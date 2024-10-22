@@ -240,4 +240,6 @@ for (int i = 1: i <= 15: i++)
 
 //Zadanie 14
 
+
+
 // Koniec Zadanie 14
