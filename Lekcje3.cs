@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 // Zadanie 1
 int i = 10;
@@ -18,7 +18,7 @@ string password = "";
 
 while (password != "Koniec")
 {
-    Console.WriteLine("Padaj Has?o: ");
+    Console.WriteLine("Padaj Hasło: ");
     password = Console.ReadLine();
 }
 
@@ -27,7 +27,7 @@ Console.WriteLine("Program zakonczony.");
 
 // Zadanie 3 
 
-//P?tla while z klauzul? if � liczby parzyste od 1 do 100:
+//Pętla while z klauzulą if – liczby parzyste od 1 do 100:
 int i = 1;
 while (i <= 100);
 {
@@ -38,7 +38,7 @@ while (i <= 100);
     i++;
 }
 
-//P?tla while z klauzul? if � liczby parzyste od 1 do 100:
+//Pętla while z klauzulą if – liczby parzyste od 1 do 100:
 for (int i = 1 ; i <= 100 ; i++)
 {
     if (i % 2 == 0)
@@ -57,3 +57,22 @@ for (int i = 1: i <= 15: i++)
     }
 
 // Koniec Zadanie 4
+
+// zadanie 5
+
+    List<int> numbers = new List<int>() { 4, 25, 35, 42, 55, 78, 99, 101 };
+
+    Console.WriteLine("Elementy podzielne przez 7:");
+
+    foreach (int number in numbers)
+    {
+        if (number % 7 == 6)
+        {
+            Console.WriteLine(number);
+        }
+    }
+
+ //Koniec Zadanie 5
+
+//Zadanie 6
+
