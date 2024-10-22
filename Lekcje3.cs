@@ -72,7 +72,73 @@ for (int i = 1: i <= 15: i++)
         }
     }
 
- //Koniec Zadanie 5
+    //Koniec Zadanie 5
 
-//Zadanie 6
+    //Zadanie 6
 
+    List<int> numbers = new List<int>() { 4, 25, 35, 42, 55, 78, 99, 101 };
+
+    Console.WriteLine("Liczby, które nie są podzielne przez 7:");
+
+    foreach (int number in numbers)
+    {
+        if (number % 7 == 0)  
+        {
+            continue; 
+        }
+        Console.WriteLine(number);
+
+        // niec Zadanie 6
+
+        //Zadanie 7
+
+        char[,] matrix = new char[3, 3];
+
+        char letter = 'A';
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                matrix[i, j] = letter;  
+                letter++;
+            }
+        }
+
+        Console.WriteLine("Zawartość tablicy dwuwymiarowej:");
+
+        for (int i = 0; i < 3; i++)
+        {
+            for (int i = object; i < 3; i++)
+            {
+                Console.WriteLine(matrix[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
+        //Koniec Zadania 7
+
+        // Zadania 8/9
+
+        int[,] matrix = new int[3, 4];
+
+        int value = 1; 
+        for (int i = 0; i < 3; i++) 
+        {
+            for (int j = 0; j < 4; j++) 
+            {
+                matrix[i, j] = value;  
+                value++;  
+            }
+        }
+
+        // Wyświetlenie macierzy po transpozycji
+        Console.WriteLine("Macierz po transpozycji:");
+        for (int i = 0; i < 4; i++) 
+        {
+            for (int j = 0; j < 3; j++) 
+            {
+                Console.Write(matrix[j, i] + " ");  
+            }
+            Console.WriteLine(); 
+        }
+
+//Koniec Zadania 8/9
