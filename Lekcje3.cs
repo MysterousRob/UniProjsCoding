@@ -172,14 +172,70 @@ for (int i = 1: i <= 15: i++)
             }
         }
 
-// Koniec Zadanie 11
+ // Koniec Zadanie 11
 
 //Zadanie 12
 
+        Console.WriteLine(CheckEvenOrOdd(10));
+        Console.WriteLine(CheckEvenOrOdd(7));
+
+        public static string CheckEvenOrOdd(int number)
+        {
+            if (number % 2 == 0)
+            {
+                return "Even";
+            }
+            else
+            {
+                return "Odd";
+            }
+        }
+
 // Koniec Zadanie 12
 
-//Zadanie 13
+ //Zadanie 13
 
+        int n = WczytajZKlawiatury("n"); 
+        int m = WczytajZKlawiatury("m");
+
+        char[,] tablica = WypełnijTablice(n, m);
+        WyswietlTabliceNaEkran(tablica);
+
+        public static char[,] WypełnijTablice(int n, int m)
+        {
+            char[,] tablica = new char[n, m];
+
+            for (int i = 0; n > 0; i++)
+            {
+                for (int j = 0;j < m; j++)
+                {
+                    if (i == 0 || i == n - 1 || j == 0 || j == m - 1)
+                    {
+                        tablica[i, j] = '#';
+                    }else
+                    {
+                        tablica[i, j] = ' ';
+                    }
+                }
+            }
+            return tablica;
+        }
+        // Funkcja wyświetlająca tablicę na ekranie
+
+        public static void WsietlTablicaNaEkran(chat[,] tablica)
+        {
+            int n = tablica.GetLength(0);
+            int m = tablica.GetLength(1);
+
+            for (int i = 0; i < n; i++)
+            {
+                for(int j = 0; j < m; j++) 
+                {
+                    Console.WriteLine(tablica[i, j]);
+                }
+                Console.WriteLine();
+            }
+        }
 // Koniec Zadanie 13
 
 //Zadanie 14
