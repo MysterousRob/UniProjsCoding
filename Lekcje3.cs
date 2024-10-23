@@ -1,5 +1,6 @@
 ﻿using System;
-
+class Program {
+    static void Main(string[] args)
 // Zadanie 1
 int i = 10;
 do
@@ -243,3 +244,6 @@ for (int i = 1: i <= 15: i++)
 
 
 // Koniec Zadanie 14
+
+
+}
